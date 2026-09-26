@@ -1,0 +1,66 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Stylized portrait of Nawaf</title>
+  <desc id="desc">A futuristic portrait illustration with dark hair, sunglasses, suit, and cyber look.</desc>
+  <defs>
+    <linearGradient id="bgGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f2434"/>
+      <stop offset="100%" stop-color="#0a1a28"/>
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#d2a07c"/>
+      <stop offset="100%" stop-color="#8b5d41"/>
+    </linearGradient>
+    <linearGradient id="hairGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1a1515"/>
+      <stop offset="100%" stop-color="#3b2a1f"/>
+    </linearGradient>
+    <linearGradient id="suitGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0d1318"/>
+      <stop offset="100%" stop-color="#1d2a35"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="15" stdDeviation="18" flood-opacity="0.28" flood-color="#44d0ff"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="1200" fill="url(#bgGrad)"/>
+
+  <g filter="url(#shadow)">
+    <path d="M200 1000 L340 760 L530 760 L620 1000 Z" fill="url(#suitGrad)"/>
+    <path d="M300 760 L240 1010 L100 1010 L150 720 Z" fill="#0c121a"/>
+    <path d="M620 760 L770 1010 L660 1010 L520 720 Z" fill="#091316"/>
+    <path d="M520 700 L610 1040 L495 1040 L420 760 Z" fill="#0d1823"/>
+    <path d="M265 700 L360 1040 L230 1040 L180 760 Z" fill="#0b1318"/>
+  </g>
+
+  <g>
+    <path d="M260 260 C210 130, 410 60, 500 100 C620 150, 690 240, 680 370 C668 505, 570 610, 470 620 C350 630, 220 550, 200 420 C188 340, 212 300, 260 260 Z" fill="url(#hairGrad)"/>
+    <path d="M300 355 C336 300, 407 285, 468 294 C520 302, 580 338, 594 388 C614 446, 597 537, 535 573 C474 610, 371 613, 314 570 C250 525, 248 442, 300 355 Z" fill="url(#skinGrad)"/>
+
+    <path d="M282 396 C320 345, 376 327, 438 342 C500 358, 554 392, 574 450 C589 495, 581 534, 546 566 C506 600, 452 612, 390 610 C332 608, 295 596, 265 564 C230 528, 230 460, 282 396 Z" fill="url(#skinGrad)" opacity="0.9"/>
+
+    <path d="M255 420 C312 390, 300 374, 350 382 C390 388, 420 396, 458 392 C495 390, 545 386, 578 404 C564 356, 470 300, 394 300 C338 300, 300 330, 255 420 Z" fill="#0f0f12" opacity="0.85"/>
+
+    <ellipse cx="378" cy="450" rx="76" ry="42" fill="#111417"/>
+    <ellipse cx="522" cy="448" rx="76" ry="42" fill="#111417"/>
+    <path d="M306 454 L350 484 L420 436" stroke="#1d1d21" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M523 454 L484 486 L422 438" stroke="#1d1d21" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+    <path d="M448 500 C470 518, 493 520, 512 503" stroke="#7b4d36" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+    <path d="M312 592 C372 621, 460 626, 544 590" stroke="#724733" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M398 620 C434 644, 470 642, 522 618" stroke="#4f352c" stroke-width="9" fill="none" stroke-linecap="round"/>
+
+    <path d="M335 233 C360 200, 420 168, 494 176 C560 184, 622 216, 655 265 C633 244, 600 232, 570 225 C530 216, 486 216, 445 224 C402 232, 370 238, 335 233 Z" fill="#1b1716" opacity="0.95"/>
+    <path d="M236 240 C260 160, 336 116, 410 96 C467 81, 560 93, 630 134 C690 170, 732 235, 742 286 C700 248, 648 223, 565 214 C468 205, 356 220, 236 240 Z" fill="#0e0d0d" opacity="0.9"/>
+
+    <path d="M375 375 C416 386, 456 387, 500 375" stroke="#2b1f1c" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M375 400 C410 410, 465 412, 500 400" stroke="#2b1f1c" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.8"/>
+
+    <path d="M468 468 C498 490, 522 500, 560 490" stroke="#5a342d" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M286 470 C246 494, 220 521, 212 559" stroke="#5a342d" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+    <ellipse cx="378" cy="442" rx="20" ry="12" fill="#10171b"/>
+    <ellipse cx="522" cy="442" rx="20" ry="12" fill="#10171b"/>
+  </g>
+</svg>
