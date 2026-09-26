@@ -2,83 +2,198 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>نواف محمد حامد — ملف تعريفي</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>نواف محمد حامد | Portfolio</title>
+  <meta name="description" content="ملف شخصي احترافي لنواف محمد حامد – باحث أمن سيبراني، مطور أنظمة ذكاء اصطناعي، ومهندس برمجيات وأنظمة.">
   <link rel="stylesheet" href="styles.css">
-  <meta name="description" content="نواف محمد حامد — باحث أمن سيبراني، مطور أنظمة ذكية، مهندس برمجيات وأنظمة. ملف تعريفي للتوظيف.">
 </head>
 <body>
-  <header class="hero">
+  <header class="navbar">
     <div class="container">
-      <img class="avatar" src="assets/profile.jpg" alt="صورة نواف" onerror="this.style.display='none'">
-      <h1>نواف محمد حامد</h1>
-      <p class="title">باحث أمن سيبراني | مطور أنظمة ذكاء صناعي | مهندس برمجيات وأنظمة</p>
-      <p class="location">صنعاء، اليمن</p>
-      <div class="actions">
-        <a class="btn" href="resume.pdf">تحميل السيرة الذاتية (PDF)</a>
-        <a class="btn outline" href="mailto:mtlbashm@gmail.com">راسلني</a>
+      <div class="brand">NAVA</div>
+      <nav class="menu" aria-label="القائمة الرئيسية">
+        <a href="#about">نبذة</a>
+        <a href="#skills">مهارات</a>
+        <a href="#experience">خبرة</a>
+        <a href="#projects">مشاريع</a>
+        <a href="#contact">تواصل</a>
+      </nav>
+    </div>
+  </header>
+
+  <header class="hero">
+    <div class="container hero-inner">
+      <div>
+        <span class="badge">Cybersecurity Researcher • AI Systems Developer</span>
+        <h1>نواف محمد حامد <span class="title-highlight">TASTASS</span></h1>
+        <p class="lead">
+          أعمل في تقاطع الأمن السيبراني، هندسة الأنظمة، والذكاء الاصطناعي. أركز على بناء حلول عملية تدعم الأمان، البحث، التشغيل الآمن، وتطوير الأنظمة الذكية بطريقة مسؤولة.
+        </p>
+        <div class="actions">
+          <a class="btn primary" href="#contact">تواصل معي</a>
+          <a class="btn secondary" href="#projects">استعراض المشاريع</a>
+        </div>
+        <div class="social-row">
+          <a href="https://github.com/Nawaf-Nava" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="mailto:mtlbashm@gmail.com">Email</a>
+          <a href="https://t.me" target="_blank" rel="noreferrer">Telegram</a>
+        </div>
       </div>
-      <div class="social">
-        <a href="https://github.com/Nawaf-Nava" target="_blank">GitHub</a> •
-        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+
+      <div class="profile-card">
+        <div class="avatar">ن</div>
+        <div class="stat-grid">
+          <div class="stat"><strong>+4</strong>أعوام خبرة عملية</div>
+          <div class="stat"><strong>15+</strong>مهارة تقنية</div>
+          <div class="stat"><strong>7</strong>مجالات بحثية</div>
+          <div class="stat"><strong>1</strong>مشروع رئيسي (NAVA_AI)</div>
+        </div>
       </div>
     </div>
   </header>
 
   <main class="container">
-    <section id="profile" class="card">
-      <h2>نبذة مختصرة</h2>
-      <p>مهندس أنظمة وممارس أمني متخصص في الأمن السيبراني وتطبيقات الذكاء الاصطناعي للأمن. مؤسس مشروع NAVA_AI البحثي لبناء أنظمة وكيل محلي داعم لمهام الأمن السيبراني. أمتلك خبرة عملية مع أنظمة Linux/Windows، شبكات، افتراضية، حاويات، وأدوات اختبار الأمان.</p>
+    <section id="about">
+      <div class="section-head">
+        <h2>نبذة مختصرة</h2>
+      </div>
+      <div class="card">
+        <div class="grid-2">
+          <div>
+            <p class="text-lite">
+              أُدير مشروع NAVA_AI كمنظمة حقيقية لتجربة أنظمة الذكاء الاصطناعي المحلية والوكيلية، مدمجاً بين الذاكرة، الاسترجاع، التخطيط، الأدوات، التقييم، والأمان. أهدف إلى بناء أطر عملية تجعل الذكاء الاصطناعي أداة فعّالة في الأمن السيبراني والبحث العلمي.
+            </p>
+          </div>
+          <div>
+            <p class="text-lite">
+              أمتلك خبرة عملية في Linux وWindows، الأمان، الشبكات، الأنظمة، الحاويات، القواعد البيانات، APIs، والبرمجة. أستمتع بفهم كيفية تفاعل الأنظمة والبرامج مع البنية التحتية من منظور أمني وقابل للتطوير.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="skills" class="card">
-      <h2>المهارات التقنية</h2>
-      <ul class="skills-list">
-        <li>أمن سيبراني (Penetration Testing, Network Security)</li>
-        <li>Linux & System Administration</li>
-        <li>برمجة: Python, C++, JavaScript, PHP, Dart/Flutter</li>
-        <li>الذكاء الاصطناعي المحلي ونظم الوكلاء (NAVA_AI)</li>
-        <li>حاويات وDevOps: Docker, Docker Compose, NGINX</li>
-        <li>قواعد بيانات: PostgreSQL, MySQL, SQLite</li>
-      </ul>
+    <section id="skills">
+      <div class="section-head">
+        <h2>المهارات التقنية</h2>
+      </div>
+      <div class="card">
+        <ul class="skill-list clean">
+          <li>Cybersecurity</li>
+          <li>Penetration Testing</li>
+          <li>Network Security</li>
+          <li>Linux Administration</li>
+          <li>System Troubleshooting</li>
+          <li>Python</li>
+          <li>C++</li>
+          <li>JavaScript</li>
+          <li>PHP</li>
+          <li>Flutter / Dart</li>
+          <li>FastAPI</li>
+          <li>Docker</li>
+          <li>Docker Compose</li>
+          <li>NGINX</li>
+          <li>PostgreSQL</li>
+          <li>MySQL</li>
+          <li>SQLite</li>
+          <li>AI Agent Systems</li>
+          <li>Local AI</li>
+          <li>Retrieval Systems</li>
+          <li>Safety Controls</li>
+          <li>Benchmarking</li>
+          <li>Git & GitHub</li>
+          <li>VMware</li>
+          <li>Incus / LXD</li>
+        </ul>
+      </div>
     </section>
 
-    <section id="projects" class="card">
-      <h2>مشاريع مميزة</h2>
-      <article>
-        <h3>NAVA_AI — معماريّة أنظمة ذكاء محلية لوظائف الأمن</h3>
-        <p>مشروع طويل المدى لبناء بنية وكيل ذكي محلي تدعم الذاكرة، الاسترجاع، التنفيذ الآمن، أدوات متخصصة، والتقييم. مُصمَّم لدعم مهام الأمن السيبراني والبحث.</p>
-      </article>
-      <article>
-        <h3>Cascade Pulse — تجربة تشفير</h3>
-        <p>خوارزمية تشفير تجريبية نُفذت بلغة C++ وPython كجزء من بحوث التشفير والتجربة.</p>
-      </article>
-      <p>للاطلاع على مزيد من المشروعات، راجع مستودعاتي على GitHub.</p>
+    <section id="experience">
+      <div class="section-head">
+        <h2>الخبرة والبحث</h2>
+      </div>
+      <div class="card">
+        <div class="timeline">
+          <div class="item">
+            <small>2026</small>
+            <h3>Corresponding Author — Improving Malicious Encrypted Traffic Detection in Blockchain-Based Systems</h3>
+            <p>بحث يركز على اكتشاف حركة المرور المشفرة المشتبه بها داخل بيئات قائمة على blockchain دون الاعتماد على فك التشفير.</p>
+          </div>
+
+          <div class="item">
+            <small>2025 - الآن</small>
+            <h3>مؤسس ومطور مشروع NAVA_AI</h3>
+            <p>بناء نظام ذكي محلي يدمج الذاكرة، المعرفة، التخطيط، الاسترجاع، أدوات التشغيل، التقييم، والأمان مع توجيه قيمي لاستخدام AI في الأمن.</p>
+          </div>
+
+          <div class="item">
+            <small>أكاديمي / عملي</small>
+            <h3>اختبارات الأمان والتحقق المعتمد</h3>
+            <p>تجربة عملية في الاستكشاف، تحليل الضعف، التحقق من التكوينات الأمنية، وتقييم أنظمة محاكاة ومختبرات محلية.</p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="experience" class="card">
-      <h2>الخبرة والبحث</h2>
-      <p>بحوث: كشف حركة شبكية مشبوهة في أنظمة قائمة على البلوك تشين، أبحاث أمن شبكات الكاميرات والمراقبة.</p>
-      <p>تجربة عملية: اختبارات اختراق مُتحكَّم بها، إعداد مختبرات سيبرانية، إدارة أنظمة Linux وأنظمة افتراضية، استكشاف أعطال الأجهزة والبرامج.</p>
+    <section id="projects">
+      <div class="section-head">
+        <h2>أبرز المشاريع</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project">
+          <h3>NAVA_AI</h3>
+          <p>مشروع معماري لأنظمة الوكلاء الذكية المحلية مع الذاكرة، الاسترجاع، الخبرات، التقييم، ومراقبة التشغيل الآمن.</p>
+        </article>
+
+        <article class="project">
+          <h3>Cascade Pulse</h3>
+          <p>تجربة تشفير علمية/برمجية مبنية من الصفر وتنفذ عبر C++ وPython لدراسة التحويلات المكانية والتشفير التجريبي.</p>
+        </article>
+
+        <article class="project">
+          <h3>CyberFlux</h3>
+          <p>منصة توثيق تهتم بالوثائق التقنية، أجهزة الأمان، الأدوات، والموارد المتعلقة بالأمن السيبراني.</p>
+        </article>
+
+        <article class="project">
+          <h3>Flutter Weather Pro</h3>
+          <p>تطبيق جوّي باستخدام Flutter، Dart، واستدعاء APIs، مع بنية مناسبة لإدارة الحالة (BLoC).</p>
+        </article>
+      </div>
     </section>
 
-    <section id="education" class="card">
-      <h2>التعليم</h2>
-      <p>بكالوريوس في الأمن السيبراني — Emirates University (Yemen)</p>
+    <section id="education">
+      <div class="section-head">
+        <h2>التعليم</h2>
+      </div>
+      <div class="card">
+        <div class="item">
+          <small>بكالوريوس</small>
+          <h3>Bachelor of Cybersecurity</h3>
+          <p>Emirates University — Yemen</p>
+        </div>
+      </div>
     </section>
 
-    <section id="contact" class="card">
-      <h2>تواصل</h2>
-      <p>الهاتف: 784035317 • 738479727</p>
-      <p>البريد الإلكتروني: <a href="mailto:mtlbashm@gmail.com">mtlbashm@gmail.com</a></p>
-      <p>روابط: <a href="https://github.com/Nawaf-Nava" target="_blank">GitHub</a> • <a href="https://www.linkedin.com" target="_blank">LinkedIn</a></p>
-      <p class="note">ملاحظة: إذا رغبت أستطيع إضافة نسخة إنجليزية ثنائية اللغة، أو ربط نموذج تواصل عبر Formspree لإرسال رسائل مباشرة.</p>
+    <section id="contact">
+      <div class="section-head">
+        <h2>تواصل</h2>
+      </div>
+      <div class="card">
+        <div class="contact-list">
+          <div class="contact-item"><strong>البريد</strong> <a href="mailto:mtlbashm@gmail.com">mtlbashm@gmail.com</a></div>
+          <div class="contact-item"><strong>الهاتف</strong> 784035317 • 738479727</div>
+          <div class="contact-item"><strong>الموقع</strong> صنعاء، اليمن</div>
+          <div class="contact-item"><strong>GitHub</strong> <a href="https://github.com/Nawaf-Nava" target="_blank" rel="noreferrer">Nawaf-Nava</a></div>
+          <div class="contact-item"><strong>LinkedIn</strong> <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">الملف الشخصي</a></div>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="container">© 2026 نواف محمد حامد — تم إنشاؤه تلقائياً من السيرة الذاتية.</div>
+    © 2026 نواف محمد حامد — جميع الحقوق محفوظة.
   </footer>
-
 </body>
 </html>
